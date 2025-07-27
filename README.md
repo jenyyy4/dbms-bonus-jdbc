@@ -76,5 +76,6 @@ A Java-based CRM (Customer Relationship Management) analytics tool that connects
 
 ## How to Run
 
-```
-java -cp "CRMAnalytics.jar:mysql-connector-java-8.0.xx.jar" CRMAnalytics
+```                                                                      
+javac -cp .:mysql-connector-j-9.4.0.jar CRMAnalytics.java
+java -cp .:mysql-connector-j-9.4.0.jar CRMAnalytics
