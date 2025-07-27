@@ -18,15 +18,16 @@ A Java-based CRM (Customer Relationship Management) analytics tool that connects
 
 ---
 
-## 🛠Database Setup Instructions
+## Database Setup Instructions
 
-1. **Install MySQL Server** if you haven't already.
+1. **Install MySQL Server:**
    - On Mac: `brew install mysql`
    - On Ubuntu: `sudo apt install mysql-server`
 
 2. **Login to MySQL:**
    ```bash
    mysql -u root -p
+   
 3. **Create and Use Database, and create required Tables:**
    ```bash
    CREATE DATABASE crm_db;
